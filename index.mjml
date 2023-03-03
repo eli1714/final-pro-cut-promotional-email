@@ -1,0 +1,267 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+        color: white;
+      }
+
+      .footer-links {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+        border-right: 1px solid white;
+        padding-right: 6px;
+        padding-left: 5px;
+      }
+
+      .footer-links:last-child {
+        border-right: none;
+      }
+
+      @media (max-width: 577px) {
+        .top-header-section {
+          padding-bottom: 10px;
+        }
+
+        .top-header-link-heading {
+          display: block !important;
+          width: 100% !important;
+        }
+      }
+
+      @media (max-width: 479px) {
+        .detail-row {
+          max-width: 365px !important;
+          padding: 0 25px;
+        }
+
+        .heading-link.left {
+          width: 60% !important;
+        }
+
+        .heading-link.right {
+          width: 40% !important;
+        }
+
+        .stat-container,
+        .stat-container-right {
+          max-width: 96px !important;
+          display: block !important;
+          margin: 0 auto 24px !important;
+        }
+      }
+
+      @media (max-width: 354px) {
+        .header-button {
+          margin: 0 5px !important;
+        }
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .header,
+      .footer {
+        background-color: #313131;
+      }
+
+      .content-background {
+        background-color: #1D1D1D;
+      }
+
+      .top-header-link-heading {
+        margin: 0 5rem 0 0;
+      }
+
+      .top-header-link {
+        font-size: 9px !important;
+        text-transform: none !important;
+        padding: 0 8px !important;
+      }
+
+      .header-button {
+        font-size: 9px !important;
+        text-transform: none !important;
+        display: inline-block;
+        padding: 2px 25px !important;
+        margin: 0 10px;
+        border-radius: 2rem;
+        background: linear-gradient(0deg, #1890FF, #1890FF),
+          linear-gradient(180deg, #51ACFF 0%, #1772C6 100%);
+      }
+
+      .detail-row {
+        margin-bottom: 36px;
+      }
+
+      .detail-row:last-child {
+        margin-bottom: 0;
+      }
+
+      .speed-meter {
+        overflow: hidden !important;
+      }
+
+      .stat-container {
+        margin-right: 65px;
+      }
+
+      .icons-size {
+        max-width: 115px;
+      }
+
+      .unsubscribe-link {
+        text-decoration: none;
+        color: #51ACFF;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-section css-class="content-background" padding="0">
+      <mj-include path="components/header.mjml" />
+      <mj-raw>
+        <!-- Top Header -->
+      </mj-raw>
+      <mj-section css-class="top-header-section" padding="0 0 5px">
+        <mj-column>
+          <mj-navbar base-url="https://www.apple.com/final-cut-pro/">
+            <mj-navbar-link href="" css-class="top-header-link-heading" text-transform="none" font-size="16px" color="white">
+              Final Cut Pro X
+            </mj-navbar-link>
+            <mj-navbar-link href="" css-class="top-header-link" color="white">
+              Overview
+            </mj-navbar-link>
+            <mj-navbar-link href="/motion" css-class="top-header-link" color="white">
+              Motion
+            </mj-navbar-link>
+            <mj-navbar-link href="/specs" margin-left="50px" css-class="top-header-link" color="white">
+              Tech Specs
+            </mj-navbar-link>
+            <mj-navbar-link href="/trial/" css-class="header-button" color="white">Free Trial</mj-navbar-link>
+            <mj-navbar-link href="" css-class="header-button" color="white">Buy</mj-navbar-link>
+          </mj-navbar>
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Horizontal Divider -->
+      </mj-raw>
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-image padding="0" src="https://eliasafuentes.com/emails/final-cut-pro-email-assets/horizontal-divider.png" alt=" horizontal divider" />
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Heading Text -->
+      </mj-raw>
+      <mj-section padding="55px 0 32px">
+        <mj-column>
+          <mj-text font-size="48px" font-weight="700" line-height="58px" align="center" color="white">
+            Our most stunning take on post-production.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- 2 Heading Links -->
+      </mj-raw>
+      <mj-section padding="0 0 10px">
+        <mj-group>
+          <mj-column width="55%" css-class="heading-link left">
+            <mj-image padding="0" align="right" href="https://apple.com" src="https://eliasafuentes.com/emails/final-cut-pro-email-assets/heading-link.png" alt="apple link" width="173px" height="24px" />
+          </mj-column>
+          <mj-column width="45%" css-class="heading-link right">
+            <mj-image padding="0 16px" align="left" href="https://apple.com" src="https://eliasafuentes.com/emails/final-cut-pro-email-assets/heading-link-2.png" alt="apple link" width="81px" height="24px" />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-raw>
+        <!-- Imac Image -->
+      </mj-raw>
+      <mj-section padding="0 0 60px">
+        <mj-column>
+          <mj-image src="https://eliasafuentes.com/emails/final-cut-pro-email-assets/pro_x_imac.png" />
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Horizontal Divider -->
+      </mj-raw>
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-image padding="0" src="https://eliasafuentes.com/emails/final-cut-pro-email-assets/horizontal-divider.png" alt=" horizontal divider" />
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- 4 Rows Details -->
+      </mj-raw>
+      <mj-section padding="48px 0">
+        <mj-column css-class="detail-row" width="365px" padding="0" border-left="4px solid #EDBB99">
+          <mj-text font-size="24px" font-weight="bold" line-height="30px" padding="0 0 0 24px" color="white">
+            Editing, audio, motion graphics, and delivery.
+          </mj-text>
+        </mj-column>
+        <mj-column css-class="detail-row" width="365px" padding="0" border-left="4px solid #EDBB99">
+          <mj-text font-size="24px" line-height="30px" font-weight="bold" padding="0 0 0 24px" color="white">
+            Color grading, HDR support, and ProRes RAW.
+          </mj-text>
+        </mj-column>
+        <mj-column css-class="detail-row" width="365px" padding="0" border-left="4px solid #EDBB99">
+          <mj-text font-size="24px" line-height="30px" font-weight="bold" padding="0 0 0 24px" color="white">
+            Metal engine coming this fall.
+          </mj-text>
+        </mj-column>
+        <mj-column css-class="detail-row" width="365px" padding="0" border-left="4px solid #EDBB99">
+          <mj-text font-size="24px" line-height="30px" font-weight="bold" padding="0 0 0 24px" color="white">
+            360° video editing and VR headset playback.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Horizontal Divider -->
+      </mj-raw>
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-image padding="0" src="https://eliasafuentes.com/emails/final-cut-pro-email-assets/horizontal-divider.png" alt="horizontal divider" />
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Stats -->
+      </mj-raw>
+      <mj-wrapper css-class="speed-meter" background-url="https://eliasafuentes.com/emails/final-cut-pro-email-assets/speed-meter.png" background-repeat="no-repeat" ; background-position-y="90px">
+        <mj-section padding="120px 0 100px">
+          <mj-column css-class="stat-container" width="96px" border-bottom="4px solid #EDBB99">
+            <mj-text padding="0" font-size="10px" color="white">
+              up to
+            </mj-text>
+            <mj-text padding="5px 0" font-size="36px" font-weight="500" color="white">
+              3.2x
+            </mj-text>
+            <mj-text padding="0 0 20px" font-size="10px" color="white">
+              faster render
+            </mj-text>
+          </mj-column>
+          <mj-column css-class="stat-container" width="96px" border-bottom="4px solid #EDBB99">
+            <mj-text padding="0" font-size="10px" color="white">
+              up to
+            </mj-text>
+            <mj-text padding="5px 0" font-size="36px" font-weight="500" color="white">
+              8+
+            </mj-text>
+            <mj-text padding="0 0 20px" font-size="10px" color="white">
+              streams of 4k video
+            </mj-text>
+          </mj-column>
+          <mj-column css-class="stat-container-right" width="96px" border-bottom="4px solid #EDBB99">
+            <mj-text padding="0" font-size="10px" color="white">
+              up to
+            </mj-text>
+            <mj-text padding="5px 0" font-size="36px" font-weight="500" color="white">
+              2x
+            </mj-text>
+            <mj-text padding="0 0 20px" font-size="10px" color="white">
+              faster running time
+            </mj-text>
+          </mj-column>
+        </mj-section>
+      </mj-wrapper>
+      <mj-include path="components/footer.mjml" />
+    </mj-section>
+  </mj-body>
+</mjml>

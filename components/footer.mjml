@@ -1,0 +1,39 @@
+<mj-raw>
+  <!-- footer -->
+</mj-raw>
+<mj-wrapper css-class="footer" padding="48px 0 72px">
+  <mj-section padding="0">
+    <mj-group css-class="icons-size">
+      <mj-column padding="0">
+        <mj-image width="20px" padding="0" height="20px" href="https://facebook.com/apple" src="https://eliasafuentes.com/emails/final-cut-pro-email-assets/facebook_logo.png" alt="facebook icon" />
+      </mj-column>
+      <mj-column padding="0">
+        <mj-image width="20px" height="20px" padding="0"  href="https://twitter.com/apple" src="https://eliasafuentes.com/emails/final-cut-pro-email-assets/twitter_logo.png" alt="twitter icon" />
+      </mj-column>
+      <mj-column padding="0">
+        <mj-image width="20px" height="20px" padding="0" href="https://instagram.com/apple" src="https://eliasafuentes.com/emails/final-cut-pro-email-assets/instagram_logo.png" alt="instagram icon" />
+      </mj-column>
+    </mj-group>
+  </mj-section>
+  <mj-section>
+    <mj-column padding="0 25px">
+      <mj-text align="center" font-size="12px" color="#7D7D7D" line-height="20px">
+        All rights reserved. Copyright © 2019 Apple Inc. 1 Infinite Loop, Cupertino, CA 95014
+      </mj-text>
+      <mj-text align="center" line-height="20px" font-size="12px" color="#7D7D7D">
+        This email was sent to hello@you.com because you indicated that you’d like to stay up to date on the latest features, services, support info and offers for Final Cut Pro. You can unsubscribe from Final Cut Pro emails <a class="unsubscribe-link" href="#">here</a> 
+      </mj-text>
+    </mj-column>
+  </mj-section>
+  <mj-section padding="0 0 60px">
+    <mj-column padding="0">
+      <mj-text font-size="10px" align="center" line-height="20px">
+        <a href="#" class="footer-links">Privacy Policy</a>
+        <a href="#" class="footer-links">Terms & Conditions</a>
+        <a href="#" class="footer-links">Support</a>
+        <a href="#" class="footer-links">Account</a>
+        <a href="#" class="footer-links">Subscribe</a>
+      </mj-text>
+    </mj-column>
+  </mj-section>
+</mj-wrapper>

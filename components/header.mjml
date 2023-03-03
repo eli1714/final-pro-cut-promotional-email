@@ -1,0 +1,8 @@
+<mj-raw>
+  <!-- Header -->
+</mj-raw>
+<mj-section css-class="header">
+  <mj-column>
+    <mj-image href="https://apple.com" width="24px" src="https://eliasafuentes.com/emails/final-cut-pro-email-assets/apple_logo.png" alt="apple logo" />
+  </mj-column>
+</mj-section>
